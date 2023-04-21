@@ -5,7 +5,7 @@
  */
 
 /* all */
-body{padding-top: 44px;}
+body{padding-top: 0px;}
 body.active{ padding-top: 60px;}
 .myui-container-bg{margin-bottom: 20px;padding: 20px 0;background-color: #191a20;}
 
