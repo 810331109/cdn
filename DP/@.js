@@ -1,0 +1,11 @@
+document.writeln("<link rel=\'shortcut icon\' type=\'image/ico\' href=\'//jsd.onmicrosoft.cn/gh/810331109/CDN/DP/favicon.ico\'>");
+document.writeln("<link rel=\'stylesheet\' href=\'//jsd.onmicrosoft.cn/gh/810331109/CDN/DP/css/Maoplayer.css\'>");
+document.writeln("<script type=\'text/javascript\' src=\'//jsd.onmicrosoft.cn/gh/810331109/CDN/DP/js/hz.js\'></script>");
+document.writeln("<script type=\'text/javascript\' src=\'//jsd.onmicrosoft.cn/gh/810331109/CDN/DP/js/aes.js\'></script>");
+document.writeln("<script type=\'text/javascript\' src=\'//jsd.onmicrosoft.cn/gh/810331109/CDN/DP/js/jquery.min.js\'></script>");
+document.writeln("<script type=\'text/javascript\' src=\'//jsd.onmicrosoft.cn/gh/810331109/CDN/DP/js/play.js\'></script>");
+document.writeln("<script type=\'text/javascript\' src=\'//jsd.onmicrosoft.cn/gh/810331109/CDN/DP/js/Mao.js\'></script>");
+document.writeln("<script type=\'text/javascript\' src=\'//jsd.onmicrosoft.cn/gh/810331109/CDN/DP/js/Maoplay.js\'></script>");
+document.writeln("<script type=\'text/javascript\' src=\'//jsd.onmicrosoft.cn/gh/810331109/CDN/DP/js/hls.min.js\'></script>");
+document.writeln("<script type=\'text/javascript\' src=\'//jsd.onmicrosoft.cn/gh/810331109/CDN/DP/js/flv.min.js\'></script>");
+document.writeln("<script type=\'text/javascript\' src=\'//jsd.onmicrosoft.cn/gh/810331109/CDN/DP/js/layer.js\'></script>");
