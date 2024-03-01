@@ -1,0 +1,189 @@
+@charset "utf-8";
+body {
+    background-color: transparent; /*  总体背景默认透明色，白色#fff黑色#000  */
+}
+
+article,
+aside,
+blockquote,
+body,
+button,
+code,
+dd,
+details,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hr,
+html,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+p,
+pre,
+section,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset,
+img {
+    border: 0
+}
+
+li,
+ul {
+    list-style: none
+}
+
+.art-content li,
+.art-content ul {
+    list-style: inherit
+}
+
+a {
+    text-decoration: none
+}
+
+
+/*-----------------------以下三种广告可细调---------------------------*/
+
+
+/*大横幅*/
+
+.index-top-ad {
+    overflow: hidden;
+    margin: 1px auto 1px;
+    padding: 1px 1px 1px;
+    width: 100%;
+    
+}
+
+.index-top-ad a img {
+    z-index: 1;
+    height: 50px !important;   /*大横幅电脑端高宽 */
+}
+
+ @media screen and (max-width:767px) {
+
+        .index-top-ad  a,
+        .index-top-ad a img {
+            height: 40px !important; /* 大横幅手机端高度 */
+        }
+ }
+
+.index-top-ad a:nth-child(3n+0) {
+    margin: 0;
+}
+
+.index-top-ad div {
+    float: inherit;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.index-top-ad div a,
+.index-top-ad div a img {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+}
+
+
+
+
+/*小横幅*/
+
+    .index-kuake-ad a {
+        position: relative;
+        float: left;
+        display: block;
+        margin-right: 3px; /*两个小横幅间距*/
+        margin-bottom: 5px; /*小横幅与文字广告之间距离*/
+        
+    }
+
+    .index-kuake-ad a img {
+        z-index: 1;
+        width: 100%;
+        height: 50px !important;    /*小横幅高*/
+        
+    }
+
+    .index-kuake-ad a:nth-child(3n+0) {
+        margin: 0;
+        
+    }
+
+    .index-kuake-ad span a,
+    .index-kuake-ad span a img {
+        display: block;
+        overflow: hidden;
+        width: 49.83%; /*小横幅宽*/
+        height: 50px;
+        
+    }
+
+    .index-kuake-ad span a:nth-child(2),
+    .index-kuake-ad span a:nth-child(2) img {
+        margin-right: 0 !important;
+        
+    }
+    
+    
+
+ @media screen and (max-width:800px) {
+
+        .index-kuake-ad span a,
+        .index-kuake-ad span a img {
+            width: 49.4%;
+            height: 40px !important;   /*手机端小横幅高*/
+        }
+ }
+
+    @media screen and (max-width:767px) {
+
+        .index-kuake-ad span a,
+        .index-kuake-ad span a img {
+            width: 49.4%;
+            height: 40px !important;   /*手机端小横幅高*/
+        }
+ }
+         
+    
+    
+
+ /*文字广告电脑端*/
+
+ .index-site-list li{width: 24.8%;}  /*文字广告宽度*/
+ .index-card {margin-bottom: 10px;border-radius: 0px;border: 0px solid #eaeaea;}
+ .index-site-list li{float: left;line-height: 2.3;height: 38px;text-align: center;border:1px #efefef solid;border-width: 1px 1px 1px 1px;}
+ .index-site-list li a{font-size: 14px;height: 38px;overflow: hidden;}
+
+
+
+  /*友情提示：各种数字自己试试调节，清除浏览器缓存和强制刷新看效果哈*/
+
+/*文字手机端宽度*/
+@media screen and (max-width: 1024px) {.index-site-list li{width: 24.5%;}}
+@media screen and (max-width: 800px) {.index-site-list li{width: 24.5%;}}
+@media screen and (max-width: 767px) {.index-site-list li{overflow: hidden;width: 24.4%;}}
